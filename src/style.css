@@ -3,3 +3,88 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    /* Taken från arbetsformedlingen.se */
+    --af-primary: #00005a;
+    --af-blue: #1616b2;
+    --af-green-max: #92eb42;
+    --af-green: #11a386;
+    --af-green-10: #eff8eb;
+    --af-green-40: #a0dacf;
+    --af-yellow: #fddc41;
+    --af-red: #e21c50;
+    --af-white: #fff;
+    --af-gray-10: #f5f5f5;
+    --af-gray-20: #efefef;
+    --af-gray-30: #d1d1d1;
+    --af-gray-50: #999;
+    --af-gray-70: #666;
+    --af-gray-90: #333;
+    --af-black: #000;
+}
+
+html,
+body{
+    height: 100%;
+    background: var(--af-primary);
+}
+
+header,
+footer{
+    background: var(--af-green-40);
+    min-height: 5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    min-height: 90%;
+    min-width: 350px;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main input{
+    margin: 2em 0;
+    min-height: 50px;
+    width: 80%;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+ul{
+    list-style: none;
+    min-width: 70%;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    border: 1px var(--af-primary) solid;
+    border-radius: 30px;
+    overflow:hidden;
+    background: var(--af-white);
+}
+
+li h1{
+    min-width: 30%;
+    height: 100%;
+    padding-left: 0.25em;
+    background: var(--af-green-max);
+    color: black;
+}
+
+li p{
+    padding-left: 0.25em;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 1.2em;
+    color: black;
+}
