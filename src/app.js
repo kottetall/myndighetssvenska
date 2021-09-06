@@ -1,5 +1,6 @@
 
 document.querySelector("input").addEventListener("keyup", searchData)
+document.querySelector(".clear").addEventListener("click", clearAll)
 
 function searchData() {
     const { value } = this
@@ -7,15 +8,30 @@ function searchData() {
         clearResultsElement()
         return
     }
-    const valueRegex = new RegExp(`^${value}`, "i")
+
+    const valueExactRegex = new RegExp(`^${value}$`, "i")
+    const valuePartialRegex = new RegExp(`^${value}`, "i")
+    const valueSuggestRegex = new RegExp(`^${value.substring(0, value.length - 1)}.`, "i")
+
     const found = []
     for (let abbreviation in wordlist) {
-        if (valueRegex.test(abbreviation)) {
+        if (valueExactRegex.test(abbreviation)) {
             const package = {
                 abbreviation,
-                explanation: wordlist[abbreviation]
+                explanation: wordlist[abbreviation],
+                exact: true
             }
             found.push(package)
+        } else if (valuePartialRegex.test(abbreviation)) {
+            const package = {
+                abbreviation,
+                explanation: wordlist[abbreviation],
+                exact: false
+            }
+            found.push(package)
+        } else if (valueSuggestRegex.test(abbreviation)) {
+            // TODO: visa förslag
+            console.log(`förslag: ${abbreviation}`)
         }
     }
     updateResults(found)
@@ -30,11 +46,12 @@ function updateResults(found) {
 }
 
 function createLi(package) {
-    const { abbreviation, explanation } = package
+    const { abbreviation, explanation, exact } = package
 
     const resultsElement = document.querySelector(".results")
 
     const liElement = document.createElement("li")
+    if (exact) liElement.classList.add("exact")
 
     const abbreviationElement = document.createElement("h1")
     abbreviationElement.classList.add("abbreviation")
@@ -45,7 +62,10 @@ function createLi(package) {
     explanationElement.innerText = explanation
 
     liElement.append(abbreviationElement, explanationElement)
-    resultsElement.append(liElement)
+
+
+    exact ? resultsElement.prepend(liElement) : resultsElement.append(liElement)
+
 }
 
 function clearResultsElement() {
@@ -54,4 +74,11 @@ function clearResultsElement() {
     for (let child of children) {
         child.remove()
     }
+}
+
+function clearAll() {
+    clearResultsElement()
+    const input = document.querySelector("#inputAbbreviation")
+    input.value = ""
+    input.focus()
 }

@@ -124,5 +124,19 @@ const wordlist = {
     "YA": "Yrkesintroduktionsanställning (arbetsmarknadsdepartementets förkortning)",
     "YKB": "Yrkeskompetensbedömning",
     "YRI": "Yrkesintroduktion/yrkesintroduktionsanställning",
-    "YSM": "Yrkes- och studieförberedande moduler"
+    "YSM": "Yrkes- och studieförberedande moduler",
+    "PR": "Periodisk rapport, skickas in av Leverantörer för att möjliggöra fakturering",
+    "GP": "Gemensam planering, deltagaren och Leverantörens planering för insatsen, krävs för att beslutet ska kunna attesteras och faktureras",
+    "SR": "Slutrapport",
+    "ka webb": "Ingång till KA för externa leverantörer av insatser",
+    "ka webbstöd": "Ingång till KA för interna användare - arbetsförmedlare etc",
+    "dafa": "Efterföljaren till KA",
+    "självfaktura": "",
+    "snow": "Service Now, ärendehanteringssystem för felanmälningar",
+    "kb": "Knowledgebase, syftar oftast på en artikel med problem- och lösningsbeskrivning",
+    "inc": "Incident, INC tillsammans med 7 siffror syftar på ett specifikt ärende/incident i Servicenow",
+    "aveksa": "Verktyg för att arbeta med eller kontrollera behörigheter för användare",
+    "PR": "Periodisk rapport",
+    "IR": "Informativ rapport"
+
 }

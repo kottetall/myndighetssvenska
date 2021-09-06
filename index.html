@@ -12,19 +12,24 @@
 </head>
 
 <body>
-    <header>Ordlistan uppdaterades senast 2021-08-26</header>
+    <header>Ordlistan uppdaterades senast 2021-09-06</header>
     <main>
-        <input type="text" autofocus>
+        <div class="inputWrapper">
+            <label for="inputAbbreviation">Skriv in förkortningen:</label>
+            <input type="text" autofocus id="inputAbbreviation">
+            <button class="clear">🗑</button>
+        </div>
         <ul class="results">
-            <li>
+            <!-- <li>
                 <h1 class="abbreviation">FÖRK</h1>
                 <p class="explanation">Förklaring av förkortningen</p>
             </li>
             <li>
                 <h1 class="abbreviation">FÖRK2</h1>
                 <p class="explanation">Förklaring av andra förkortningen</p>
-            </li>
+            </li> -->
         </ul>
+
     </main>
     <footer></footer>
 </body>

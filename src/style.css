@@ -49,17 +49,54 @@ main{
     margin: 0 auto;
 }
 
-main input{
-    margin: 2em 0;
+.inputWrapper{
+    margin: 2em auto;
+    position: relative;
     min-height: 50px;
     width: 80%;
-    font-size: 1.5em;
-    padding: 0.5em;
+    background: white;
+}
+
+.inputWrapper label,
+.inputWrapper input,
+.inputWrapper button{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 1px solid lightblue;
+}
+
+main .inputWrapper label,
+main .inputWrapper input{
+    font-size: 1.5rem;
+    padding: 0.5em 1em;
+    inset: 0;
+}
+
+main .inputWrapper label{
+    top: -50%;
+    width: 50%;
+    height: 50%;
+    font-size: 0.9rem;
+    background: white;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+}
+main .inputWrapper button.clear{
+    font-size: 2rem;
+    width: 50px;
+    right: 0;
+    font-weight: bold;
+}
+
+main .inputWrapper button.clear:hover{
+    cursor: pointer;
 }
 
 ul{
     list-style: none;
-    min-width: 70%;
+    /* min-width: 70%; */
 }
 
 li{
@@ -72,19 +109,27 @@ li{
     background: var(--af-white);
 }
 
+li.exact{
+    border: 4px solid orange;
+    margin-bottom: 2em;
+}
+
 li h1{
     min-width: 30%;
     height: 100%;
     padding-left: 0.25em;
+    padding:  0.5em 0 0.5em 0.25em;
     background: var(--af-green-max);
     color: black;
+    text-transform: uppercase;
+    font-size: 1.25rem;
 }
 
 li p{
     padding-left: 0.25em;
     font-style: italic;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     padding: 1.2em;
     color: black;
 }
