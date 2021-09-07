@@ -1,5 +1,5 @@
 const wordlist = {
-    "ABS": "Ärende- och beslutsstöd",
+    "ABS": "Ärende- och beslutsstöd. Används för att skicka signaler till a-kassan eller Försäkringskassan",
     "ABU": "Aktivitetsbaserad utredning (av arbetsförutsättningar/arbetsförmåga)",
     "AMPB": "Arbetsmarknadspolitisk bedömning",
     "AD": "Annonsera direkt",
@@ -128,15 +128,20 @@ const wordlist = {
     "PR": "Periodisk rapport, skickas in av Leverantörer för att möjliggöra fakturering",
     "GP": "Gemensam planering, deltagaren och Leverantörens planering för insatsen, krävs för att beslutet ska kunna attesteras och faktureras",
     "SR": "Slutrapport",
-    "ka webb": "Ingång till KA för externa leverantörer av insatser",
-    "ka webbstöd": "Ingång till KA för interna användare - arbetsförmedlare etc",
     "dafa": "Efterföljaren till KA",
-    "självfaktura": "",
     "snow": "Service Now, ärendehanteringssystem för felanmälningar",
     "kb": "Knowledgebase, syftar oftast på en artikel med problem- och lösningsbeskrivning",
     "inc": "Incident, INC tillsammans med 7 siffror syftar på ett specifikt ärende/incident i Servicenow",
     "aveksa": "Verktyg för att arbeta med eller kontrollera behörigheter för användare",
     "PR": "Periodisk rapport",
-    "IR": "Informativ rapport"
+    "IR": "Informativ rapport",
+    "PAN": "Personalansvarsnämnden",
+    "SIW": "Yta för information om uppdateringar och systemstöd",
+    "ALF": "System för aktivitetsrapporter",
+    "AIS-Å": "Namn för den del av AIS där man kan finner och tar beslut(ärenden)",
+    "plv": "Planeringsverktyget, under utfasning och ska ersättas med BÄR",
+    "adoxa": "Bokningssystem för möten mellan arbetsförmedlare och sökanden",
+    "ACE": "Växelsystem för telefoni"
+
 
 }
