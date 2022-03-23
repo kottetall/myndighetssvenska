@@ -10,5 +10,5 @@ app.listen(PORT, () => {
 })
 
 app.get("/arbetsformedlingen", (request, response) => {
-    response.send("Här är något om AF")
+    response.send("Här är något test om AF")
 })
