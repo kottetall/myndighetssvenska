@@ -97,7 +97,7 @@ const wordlist = {
     "SAA": "Systemstöd anskaffande arbetsförmedlingstjänster",
     "SAE": "Systematiserat arbetssätt inom etableringen",
     "SAM": "Systematiskt arbetsmiljöarbete",
-    "SAS": "Särskilt anställningsstöd (gammal förkortning)",
+    "SAS": "Signal om arbete eller studier, alternativt: Särskilt anställningsstöd (gammal förkortning)",
     "SEB": "Start av näringsverksamhet",
     "SEM": "Sökmotormarknadsföring (search engine marketing)",
     "SEO": " Sökmotoroptimering (search engine optimization)",
@@ -141,7 +141,17 @@ const wordlist = {
     "AIS-Å": "Namn för den del av AIS där man kan finner och tar beslut(ärenden)",
     "plv": "Planeringsverktyget, under utfasning och ska ersättas med BÄR",
     "adoxa": "Bokningssystem för möten mellan arbetsförmedlare och sökanden",
-    "ACE": "Växelsystem för telefoni"
+    "ACE": "Växelsystem för telefoni",
+    "CAK": "Central arbetsgivarkontroll",
+    "MIA": "Matchning internt Arbetsförmedlingen",
+    "MOA": "Matchning order Arbetsförmedlingen",
+    "SSF": "självserviceflöde",
+    "AÖP": "arbetsintegrerade övningsplatser",
+    "MSFA": "Mina Sidor för Fristående aktörer",
+    "ESF": "Europeiska socialfonden",
+    "BOR": "Begäran om resultatersättning",
+    "RR": "Resultatredovisning",
+
 
 
 }

@@ -126,10 +126,10 @@ li:only-child h1{
     background: var(--af-green-max);
 }
 
-
-
 li p{
     font-size: 0.8rem;
     padding: 1.2em;
     color: black;
 }
+
+

@@ -29,7 +29,7 @@ function searchData() {
                 exact: false
             }
             found.push(package)
-        } else if (valueSuggestRegex.test(abbreviation)) {
+        } else if (value.length > 1 && valueSuggestRegex.test(abbreviation)) {
             // TODO: visa förslag
             console.log(`förslag: ${abbreviation}`)
         }
