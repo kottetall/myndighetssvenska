@@ -50,6 +50,13 @@ main{
     margin: 0 auto;
 }
 
+a[href="#"]{
+    text-decoration: none;
+    font-style: italic;
+    color: gray;
+    pointer-events: none;
+}
+
 .inputWrapper{
     margin: 2em 0;
     position: relative;
@@ -97,19 +104,72 @@ main .inputWrapper button.clear:hover{
 
 ul{
     list-style: none;
-    width: 80%;
+    min-width: 80%;
 }
 
 li{
-    display: flex;
+    --abbr-offset: 30%;
+    display: grid;
+    background-color: var(--af-white);
+    /* TODO: mobilanpassa */
+    grid-template-areas: 
+    "meaning meaning meaning meaning"
+    "abbreviation explanation explanation explanation"
+    "abbreviation explanation explanation explanation"
+    ". moreinfo moreinfo usedby";
+    padding: 0.75em;
     align-items: center;
+    border-radius: 10px;
+    position: relative;
     margin: 1em 0;
-    border: 1px var(--af-primary) solid;
-    border-radius: 30px;
-    background: var(--af-white);
 }
 
-li h1{
+
+.meaning {
+    grid-area: meaning;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 0.25em;
+    text-decoration: underline;
+    justify-self: center;
+}
+
+.abbreviation {
+    grid-area: abbreviation;
+    padding: 0.5em;
+    background-color: inherit;
+    border: 2px var(--af-primary) solid;
+    border-radius: 10px 5px 5px 10px;
+    transform: translateX(-1.5em);
+    font-size: 1.4rem;
+    max-width: 12ch;
+    overflow-wrap: break-word;
+}
+
+li.exact .abbreviation,
+li:only-child .abbreviation{
+    background-color: var(--af-green-max);
+    font-weight: bold;
+    transform: translateX(-1.5em);
+}
+
+.explanation {
+    grid-area: explanation;
+    font-size: 0.8rem;
+}
+
+.moreinfo{
+    grid-area: moreinfo;
+    font-size: 0.8rem;
+}
+
+.usedby{
+    grid-area: usedby;
+    font-size: 0.7rem;
+}
+
+/* OMSKRIVNING */
+/* li h1{
     min-width: 8ch;
     height: 100%;
     padding:  0.25em 0 0.25em 0.5em;
@@ -130,6 +190,6 @@ li p{
     font-size: 0.8rem;
     padding: 1.2em;
     color: black;
-}
+} */
 
 

@@ -15,19 +15,18 @@ function searchData() {
 
     const found = []
     for (let abbreviation in wordlist) {
+        // FIXME: Skiv om!
         if (valueExactRegex.test(abbreviation)) {
-            const package = {
-                abbreviation,
-                explanation: wordlist[abbreviation],
-                exact: true
-            }
+            const package = wordlist[abbreviation][0] //TODO Anpassa för flera förklaringar
+            package.abbreviation = abbreviation
+            package.exact = true
+
             found.push(package)
         } else if (valuePartialRegex.test(abbreviation)) {
-            const package = {
-                abbreviation,
-                explanation: wordlist[abbreviation],
-                exact: false
-            }
+            const package = wordlist[abbreviation][0] //TODO Anpassa för flera förklaringar
+            package.abbreviation = abbreviation
+            package.exact = false
+
             found.push(package)
         } else if (value.length > 1 && valueSuggestRegex.test(abbreviation)) {
             // TODO: visa förslag
@@ -48,23 +47,49 @@ function updateResults(found) {
 }
 
 function createLi(package) {
-    const { abbreviation, explanation, exact } = package
+    const { abbreviation, meaning, explanation, info, usage, exact } = package
 
     const resultsElement = document.querySelector(".results")
 
     const liElement = document.createElement("li")
-    if (exact) liElement.classList.add("exact")
 
-    const abbreviationElement = document.createElement("h1")
+    const abbreviationElement = document.createElement("div")
     abbreviationElement.classList.add("abbreviation")
     abbreviationElement.textContent = abbreviation
 
-    const explanationElement = document.createElement("p")
+    const meaningElement = document.createElement("div")
+    meaningElement.classList.add("meaning")
+    meaningElement.textContent = meaning || abbreviation
+
+    const explanationElement = document.createElement("div")
     explanationElement.classList.add("explanation")
-    explanationElement.innerText = explanation
+    explanationElement.textContent = explanation || ""
 
-    liElement.append(abbreviationElement, explanationElement)
+    const infoElement = document.createElement("div")
+    infoElement.classList.add("moreinfo")
+    const infoLink = document.createElement("a")
+    infoLink.href = info.link || "#"
+    infoLink.target = "_blank"
+    infoLink.rel = "noopener noreferrer"
+    infoLink.textContent = "mer information"
 
+    infoElement.append(infoLink)
+
+
+    const usedbyElement = document.createElement("div")
+    usedbyElement.classList.add("usedby")
+    const usedbyLink = document.createElement("a")
+    usedbyLink.href = usage.link || "#"
+    usedbyLink.target = "_blank"
+    usedbyLink.rel = "noopener noreferrer"
+    usedbyLink.textContent = usage.name || "okänd"
+
+    usedbyElement.textContent = "används av: "
+    usedbyElement.append(usedbyLink)
+
+
+
+    liElement.append(abbreviationElement, meaningElement, explanationElement, infoElement, usedbyElement)
 
     exact ? resultsElement.prepend(liElement) : resultsElement.append(liElement)
 
