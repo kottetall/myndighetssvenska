@@ -31,9 +31,11 @@ function searchData() {
             found.push(package)
         } else if (value.length > 1 && valueSuggestRegex.test(abbreviation)) {
             // TODO: visa förslag
+            console.clear()
             console.log(`förslag: ${abbreviation}`)
         }
     }
+
     updateResults(found)
 }
 

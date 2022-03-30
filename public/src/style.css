@@ -77,7 +77,7 @@ main .inputWrapper input{
 
 main .inputWrapper label{
     top: -50%;
-    width: 50%;
+    width: 75%;
     height: 50%;
     font-size: 0.9rem;
     background: white;

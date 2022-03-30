@@ -10,6 +10,7 @@ const wordlist = {
     "AFII": "Arbetsförmedlingens interna instruktioner",
     "AFLI": "Arbetsförmedlingen levererar information",
     "AG": "Arbetsgivare",
+    "AHL": "Ansvarig handläggare",
     "AIP": "Arbetssökandes inskrivning och planering",
     "AIS": "Arbetsförmedlingens informationssystem",
     "ANB": "Anordnarbidrag",
@@ -30,7 +31,8 @@ const wordlist = {
     "BOI": "Beslut om insats",
     "BSN": "Bidrag till uppstartskostnader vid start av näringsverksamhet",
     "BÄR": "Beslut- och ärendehanteringssystem",
-    "CAK": " Central arbetsgivarkontroll",
+    "CAK": "Central arbetsgivarkontroll",
+    "CI": "Konfigurationsobjekt eller configuration Item",
     "CR": "Chefsrummet",
     "CRM": "Customer relationship management, det vill säga kundrelationssystem",
     "DXA": "Direktöverförda annonser (i Platsbanken)",
@@ -56,12 +58,12 @@ const wordlist = {
     "HL": "Handläggare",
     "HS": "Handläggarstöd",
     "INAB": "Introduktion till arbete",
-    "INJ": " Introduktionsjobb",
+    "INJ": "Introduktionsjobb",
     "INTRO": "Introduktionsjobb",
     "IPSU": "Individuellt pedagogiskt stöd vid utbildning",
     "ITA": "Insats för klargörande av arbetsförutsättning/arbetsförmåga",
     "JOB": "Jobb- och utvecklingsgarantin",
-    "KA": " Kompletterande aktör",
+    "KA": "Kompletterande aktör",
     "KAP": "Kundarbetsplats",
     "KROM": "Kundval Rusta och matcha (undvik: säg enbart Rusta och matcha)",
     "KVL": "Karriärvägledning",
@@ -151,7 +153,4 @@ const wordlist = {
     "ESF": "Europeiska socialfonden",
     "BOR": "Begäran om resultatersättning",
     "RR": "Resultatredovisning",
-
-
-
 }

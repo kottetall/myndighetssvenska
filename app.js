@@ -9,6 +9,6 @@ app.listen(PORT, () => {
     console.log(`Uppe på ${PORT}`)
 })
 
-app.get("/arbetsformedlingen", (request, response) => {
-    response.send("Här är något test om AF")
-})
+// app.get("/arbetsformedlingen", (request, response) => {
+//     response.send("Här är något test om AF")
+// })
