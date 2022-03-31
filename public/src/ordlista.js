@@ -2320,4 +2320,34 @@ const wordlist = {
             }
         }
     ],
+    "UPPD": [
+        {
+            meaning: "Uppdatering av aktiviteter",
+            explanation: "Används i interna systemet BÄR för att lägga till eller uppdatera aktiviteter i en aktuell handlingsplan",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
+    "TLR": [
+        {
+            meaning: "Tjänsteleverantörsregistret",
+            explanation: "Internt system som hanterar uppgifter kopplade till olika typer av användare, exempelvis leverantörer",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
 }
