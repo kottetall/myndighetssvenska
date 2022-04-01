@@ -204,7 +204,7 @@ const wordlist = {
             },
             usage:
             {
-                name: null,
+                name: "Arbetsförmedlingen",
                 link: null
             }
         }
