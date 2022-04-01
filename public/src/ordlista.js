@@ -2350,4 +2350,64 @@ const wordlist = {
             }
         }
     ],
+    "CFAR": [
+        {
+            meaning: "Arbetsställenummer",
+            explanation: "Ett nummer liknande organisationsnumret, men som syftar till en specifik arbetsplats - adress, fastighet eller grupp av fastigheter",
+            info:
+            {
+                link: "https://www.scb.se/vara-tjanster/bestall-data-och-statistik/foretagsregistret/vanliga-fragor/"
+            },
+            usage:
+            {
+                name: "SCB",
+                link: null
+            }
+        }
+    ],
+    "SSO": [
+        {
+            meaning: "Single Sign-on",
+            explanation: "Metod för kontrollera inloggning och behörigheter vid ett tillfälle, för flera olika tjänster",
+            info:
+            {
+                link: "https://sv.wikipedia.org/wiki/Single_sign-on"
+            },
+            usage:
+            {
+                name: null,
+                link: null
+            }
+        }
+    ],
+    "CIAM": [
+        {
+            meaning: "",
+            explanation: "Internt system för användaruppgifter",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
+    "internetarbetsgivare": [
+        {
+            meaning: "",
+            explanation: "Syftar på en specifik typ av arbetsgivarblankett i det interna systemet AIS. Denna blankett skapas i samband med att en arbetsgivare skapar ett konto på arbetsformedlingen.se, dessa kännetecknas av ett 'J' i sökresultaten i AIS. Det är inte möjligt för handläggare att koppla beslut/insatser till denna blankett, utan de behöver då skapa en ny manuellt.",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
 }

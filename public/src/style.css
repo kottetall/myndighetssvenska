@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     /* Taken från arbetsformedlingen.se */
     --af-primary: #00005a;
     --af-blue: #1616b2;
@@ -25,22 +25,22 @@
 }
 
 html,
-body{
+body {
     height: 100%;
     background: var(--af-primary);
-    font-family: Verdana,Geneva,sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 header,
-footer{
+footer {
     background: var(--af-green-40);
     min-height: 5%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main{
+main {
     min-height: 90%;
     min-width: 350px;
     max-width: 650px;
@@ -50,14 +50,14 @@ main{
     margin: 0 auto;
 }
 
-a[href="#"]{
+a[href="#"] {
     text-decoration: none;
     font-style: italic;
     color: gray;
     pointer-events: none;
 }
 
-.inputWrapper{
+.inputWrapper {
     margin: 2em 0;
     position: relative;
     min-height: 50px;
@@ -67,7 +67,7 @@ a[href="#"]{
 
 .inputWrapper label,
 .inputWrapper input,
-.inputWrapper button{
+.inputWrapper button {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -76,13 +76,13 @@ a[href="#"]{
 }
 
 main .inputWrapper label,
-main .inputWrapper input{
+main .inputWrapper input {
     font-size: 1.5rem;
     padding: 0.5em 1em;
     inset: 0;
 }
 
-main .inputWrapper label{
+main .inputWrapper label {
     top: -50%;
     width: 75%;
     height: 50%;
@@ -91,32 +91,33 @@ main .inputWrapper label{
     border-radius: 5px 5px 0 0;
     border-bottom: none;
 }
-main .inputWrapper button.clear{
+
+main .inputWrapper button.clear {
     font-size: 2rem;
     width: 50px;
     right: 0;
     font-weight: bold;
 }
 
-main .inputWrapper button.clear:hover{
+main .inputWrapper button.clear:hover {
     cursor: pointer;
 }
 
-ul{
+ul {
     list-style: none;
     min-width: 80%;
 }
 
-li{
+li {
     --abbr-offset: 30%;
     display: grid;
     background-color: var(--af-white);
     /* TODO: mobilanpassa */
-    grid-template-areas: 
-    "meaning meaning meaning meaning"
-    "abbreviation explanation explanation explanation"
-    "abbreviation explanation explanation explanation"
-    ". moreinfo moreinfo usedby";
+    grid-template-areas:
+        "meaning meaning meaning meaning"
+        "abbreviation explanation explanation explanation"
+        "abbreviation explanation explanation explanation"
+        ". moreinfo moreinfo usedby";
     padding: 0.75em;
     align-items: center;
     border-radius: 10px;
@@ -141,13 +142,14 @@ li{
     border: 2px var(--af-primary) solid;
     border-radius: 10px 5px 5px 10px;
     transform: translateX(-1.5em);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    width: fit-content;
     max-width: 12ch;
     overflow-wrap: break-word;
 }
 
 li.exact .abbreviation,
-li:only-child .abbreviation{
+li:only-child .abbreviation {
     background-color: var(--af-green-max);
     font-weight: bold;
     transform: translateX(-1.5em);
@@ -158,12 +160,12 @@ li:only-child .abbreviation{
     font-size: 0.8rem;
 }
 
-.moreinfo{
+.moreinfo {
     grid-area: moreinfo;
     font-size: 0.8rem;
 }
 
-.usedby{
+.usedby {
     grid-area: usedby;
     font-size: 0.7rem;
 }
@@ -191,5 +193,3 @@ li p{
     padding: 1.2em;
     color: black;
 } */
-
-
