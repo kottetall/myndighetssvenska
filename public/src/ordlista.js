@@ -2410,4 +2410,184 @@ const wordlist = {
             }
         }
     ],
+    "FAMS": [
+        {
+            meaning: "Mina Sidor för Fristående aktörer",
+            explanation: "En variant på den vanligare förkortningen 'MSFA'",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "",
+                link: null
+            }
+        }
+    ],
+    "AGK": [
+        {
+            meaning: "Arbetsgivarkontroll",
+            explanation: "Kontroll av arbetsgivaren gällande arbetsgivarregistrering, skatteskulder m.m inför en eventuell insats/lönestöd",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
+    "FK": [
+        {
+            meaning: "Försäkringskassan",
+            explanation: "",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "",
+                link: null
+            }
+        }
+    ],
+    "MS": [
+        {
+            meaning: "Mina Sidor",
+            explanation: "",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
+    "MS-behörighet": [
+        {
+            meaning: "'Mycket Stark'-behörighet",
+            explanation: "En nivå av kundspecifik behörighet, som krävs för att kunna se känsliga uppgifter om en kund i Arbetsförmedlingens interna system",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "",
+                link: null
+            }
+        }
+    ],
+    "NADIM": [
+        {
+            meaning: "",
+            explanation: "Internt system",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
+    "KVA": [
+        {
+            meaning: "",
+            explanation: "Utbildning på anstalt",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "",
+                link: null
+            }
+        }
+    ],
+    "ÄIBS": [
+        {
+            meaning: "Ändring i beslutat stöd",
+            explanation: "När man ändrar i beslut som tagits i BÄR",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
+    "SPU": [
+        {
+            meaning: "Skyddade personuppgifter",
+            explanation: "",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "",
+                link: null
+            }
+        }
+    ],
+    "peppol": [
+        {
+            meaning: "",
+            explanation: "Internt system",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
+        }
+    ],
+    "GUI": [
+        {
+            meaning: "Graphical User Interface",
+            explanation: "",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "",
+                link: null
+            }
+        }
+    ],
+    "NKI": [
+        {
+            meaning: "Nöjd kund index",
+            explanation: "Mätvärde för kundnöjdhet, används ofta i serviceyrken-brancher",
+            info:
+            {
+                link: null
+            },
+            usage:
+            {
+                name: "",
+                link: null
+            }
+        }
+    ],
 }
