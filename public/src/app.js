@@ -17,13 +17,13 @@ function searchData() {
     for (let abbreviation in wordlist) {
         // FIXME: Skiv om!
         if (valueExactRegex.test(abbreviation)) {
-            const package = wordlist[abbreviation][0] //TODO Anpassa för flera förklaringar
+            const package = { meanings: wordlist[abbreviation] } //TODO Anpassa för flera förklaringar
             package.abbreviation = abbreviation
             package.exact = true
 
             found.push(package)
         } else if (valuePartialRegex.test(abbreviation)) {
-            const package = wordlist[abbreviation][0] //TODO Anpassa för flera förklaringar
+            const package = { meanings: wordlist[abbreviation] } //TODO Anpassa för flera förklaringar
             package.abbreviation = abbreviation
             package.exact = false
 
@@ -47,52 +47,62 @@ function updateResults(found) {
 }
 
 function createLi(package) {
-    const { abbreviation, meaning, explanation, info, usage, exact } = package
-
     const resultsElement = document.querySelector(".results")
+    const { abbreviation, meanings, exact } = package
 
-    const liElement = document.createElement("li")
+    const liElement = quickCreateElement("li")
 
-    const abbreviationElement = document.createElement("div")
-    abbreviationElement.classList.add("abbreviation")
+    const abbreviationElement = quickCreateElement("h2")
     abbreviationElement.textContent = abbreviation
 
-    const meaningElement = document.createElement("div")
-    meaningElement.classList.add("meaning")
-    meaningElement.textContent = meaning || abbreviation
+    liElement.append(abbreviationElement)
+    for (let meaning of meanings) {
+        const matchElement = createMatchElements(abbreviation, meaning)
+        liElement.append(matchElement)
 
-    const explanationElement = document.createElement("div")
-    explanationElement.classList.add("explanation")
-    explanationElement.textContent = explanation || ""
-
-    const infoElement = document.createElement("div")
-    infoElement.classList.add("moreinfo")
-    const infoLink = document.createElement("a")
-    infoLink.href = info.link || "#"
-    infoLink.target = "_blank"
-    infoLink.rel = "noopener noreferrer"
-    infoLink.textContent = "mer information"
-
-    infoElement.append(infoLink)
-
-
-    const usedbyElement = document.createElement("div")
-    usedbyElement.classList.add("usedby")
-    const usedbyLink = document.createElement("a")
-    usedbyLink.href = usage.link || "#"
-    usedbyLink.target = "_blank"
-    usedbyLink.rel = "noopener noreferrer"
-    usedbyLink.textContent = usage.name || "okänd"
-
-    usedbyElement.textContent = "används av: "
-    usedbyElement.append(usedbyLink)
-
-
-
-    liElement.append(abbreviationElement, meaningElement, explanationElement, infoElement, usedbyElement)
+    }
 
     exact ? resultsElement.prepend(liElement) : resultsElement.append(liElement)
 
+}
+
+function createMatchElements(abbreviation, { meaning, explanation, info, usage }) {
+    const matchElement = quickCreateElement("div", "match")
+
+    const usedbyElement = createUsedbyElement(usage)
+
+    const meaningElement = quickCreateElement("div", "meaning")
+    meaningElement.textContent = meaning || abbreviation
+
+    const explanationElement = quickCreateElement("div", "explanation")
+    explanationElement.textContent = explanation
+
+    const moreInfoElement = quickCreateElement("div", "moreInfo")
+    const moreInfoA = quickCreateElement("a")
+    moreInfoA.href = info.link
+    moreInfoA.textContent = "mer information"
+
+    moreInfoElement.append(moreInfoA)
+
+    matchElement.append(usedbyElement, meaningElement, explanationElement, moreInfoElement)
+
+    return matchElement
+}
+
+function createUsedbyElement(users) {
+    const container = quickCreateElement("div", "usedby")
+    const usageList = quickCreateElement("ul")
+
+    for (let user of users) {
+        if (!user) continue
+        const userLi = quickCreateElement("li")
+        userLi.textContent = user
+        userLi.classList.add(user)
+        usageList.append(userLi)
+    }
+
+    container.append(usageList)
+    return container
 }
 
 function clearResultsElement() {
@@ -108,4 +118,10 @@ function clearAll() {
     const input = document.querySelector("#inputAbbreviation")
     input.value = ""
     input.focus()
+}
+
+function quickCreateElement(type, className) {
+    const newElement = document.createElement(type)
+    if (className) newElement.classList.add(className)
+    return newElement
 }

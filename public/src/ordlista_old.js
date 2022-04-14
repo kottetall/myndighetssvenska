@@ -8,9 +8,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ABU": [
@@ -22,9 +23,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AMPB": [
@@ -36,9 +38,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AD": [
@@ -50,9 +53,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "Af": [
@@ -64,9 +68,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AFD": [
@@ -78,9 +83,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AFID": [
@@ -92,9 +98,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AFI": [
@@ -106,9 +113,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AFII": [
@@ -120,9 +128,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AFLI": [
@@ -134,9 +143,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AG": [
@@ -148,9 +158,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AHL": [
@@ -162,9 +173,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AIP": [
@@ -176,9 +188,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AIS": [
@@ -190,9 +203,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "ANB": [
@@ -204,9 +218,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "APR": [
@@ -218,9 +233,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "APL": [
@@ -232,9 +248,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "APT": [
@@ -246,9 +263,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "APU": [
@@ -260,9 +278,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AR": [
@@ -274,9 +293,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ARB": [
@@ -288,9 +308,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ASÖK": [
@@ -302,9 +323,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AT": [
@@ -316,9 +338,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ATH": [
@@ -330,9 +353,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AUB": [
@@ -344,9 +368,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AVUS": [
@@ -358,9 +383,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "BFB": [
@@ -372,9 +398,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "BHA": [
@@ -386,9 +413,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "BHTJ": [
@@ -400,9 +428,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "BOI": [
@@ -414,9 +443,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "BSN": [
@@ -428,9 +458,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "BÄR": [
@@ -442,9 +473,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "CAK": [
@@ -456,9 +488,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "CI": [
@@ -470,9 +503,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "CR": [
@@ -484,9 +518,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "CRM": [
@@ -498,9 +533,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "DXA": [
@@ -512,9 +548,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "EEP": [
@@ -526,9 +563,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "EES": [
@@ -540,9 +578,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "EGK": [
@@ -554,9 +593,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "EKA": [
@@ -568,9 +608,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "EPA": [
@@ -582,9 +623,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "EKI": [
@@ -596,9 +638,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ELIN": [
@@ -610,9 +653,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ESF": [
@@ -624,9 +668,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ETP": [
@@ -638,9 +683,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "EVP": [
@@ -652,9 +698,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "FAM": [
@@ -666,9 +713,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "FAT": [
@@ -680,9 +728,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "FKV": [
@@ -694,9 +743,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "FSAS": [
@@ -708,9 +758,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "FUB": [
@@ -722,9 +773,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "FUT": [
@@ -736,9 +788,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "GFR": [
@@ -750,9 +803,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "GUP": [
@@ -764,9 +818,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "HFU": [
@@ -778,9 +833,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "HL": [
@@ -792,9 +848,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "HS": [
@@ -806,9 +863,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "INAB": [
@@ -820,9 +878,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "INJ": [
@@ -834,9 +893,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "INTRO": [
@@ -848,9 +908,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "IPSU": [
@@ -862,9 +923,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ITA": [
@@ -876,9 +938,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "JOB": [
@@ -890,9 +953,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "KA": [
@@ -904,9 +968,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "KAP": [
@@ -918,9 +983,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "KROM": [
@@ -932,9 +998,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "KVL": [
@@ -946,9 +1013,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "KVR-V": [
@@ -960,9 +1028,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "KVR-R": [
@@ -974,9 +1043,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "KVR-K": [
@@ -988,9 +1058,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "LBG": [
@@ -1002,9 +1073,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "LEV": [
@@ -1016,9 +1088,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "LFA": [
@@ -1030,9 +1103,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "LFT": [
@@ -1044,9 +1118,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "LFU": [
@@ -1058,9 +1133,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "LOU": [
@@ -1072,9 +1148,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "LOV": [
@@ -1086,9 +1163,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MBJ": [
@@ -1100,9 +1178,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MER": [
@@ -1114,9 +1193,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MLG": [
@@ -1128,9 +1208,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MU": [
@@ -1142,9 +1223,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MVP": [
@@ -1156,9 +1238,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "NEPT": [
@@ -1170,9 +1253,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "NOR": [
@@ -1184,9 +1268,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "NYJ": [
@@ -1198,9 +1283,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "NYJ(S)": [
@@ -1212,9 +1298,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "OSA": [
@@ -1226,9 +1313,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         },
         {
             meaning: "Organisatorisk och social arbetsmiljö",
@@ -1238,9 +1326,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PDM": [
@@ -1252,9 +1341,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PISA": [
@@ -1266,9 +1356,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PWM": [
@@ -1280,9 +1371,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PiA": [
@@ -1294,9 +1386,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PRGM": [
@@ -1308,9 +1401,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "RA": [
@@ -1322,9 +1416,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "RAI": [
@@ -1336,9 +1431,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "RES": [
@@ -1350,9 +1446,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SAA": [
@@ -1364,9 +1461,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SAE": [
@@ -1378,9 +1476,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SAM": [
@@ -1392,9 +1491,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SAS": [
@@ -1406,9 +1506,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         },
         {
             meaning: "Särskilt anställningsstöd",
@@ -1418,9 +1519,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SEB": [
@@ -1432,9 +1534,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SEM": [
@@ -1446,9 +1549,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SEO": [
@@ -1460,9 +1564,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SFI": [
@@ -1474,9 +1579,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SFU": [
@@ -1488,9 +1594,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SIA": [
@@ -1502,9 +1609,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SMF": [
@@ -1516,9 +1624,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SPC": [
@@ -1530,9 +1639,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SIUS": [
@@ -1544,9 +1654,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SSC": [
@@ -1558,9 +1669,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SSM": [
@@ -1572,9 +1684,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SSYK": [
@@ -1586,9 +1699,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "STOM": [
@@ -1600,9 +1714,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SÖK": [
@@ -1614,9 +1729,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SÖK-A": [
@@ -1628,9 +1744,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "UGA": [
@@ -1642,9 +1759,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "UBK": [
@@ -1656,9 +1774,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "UR": [
@@ -1670,9 +1789,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "UTA": [
@@ -1684,9 +1804,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "VAL": [
@@ -1698,9 +1819,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "VIS": [
@@ -1712,9 +1834,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "VO": [
@@ -1726,9 +1849,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "VPN": [
@@ -1740,9 +1864,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "YA": [
@@ -1754,9 +1879,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "YKB": [
@@ -1768,9 +1894,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "YRI": [
@@ -1782,9 +1909,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "YSM": [
@@ -1796,9 +1924,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PR": [
@@ -1810,9 +1939,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "GP": [
@@ -1824,9 +1954,10 @@ const wordlist = {
                 link: "https://97o9qt.axshare.com/gemensam_planering_-_medverkande_parter.html"
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: "https://arbetsformedlingen.se"
+            }
         }
     ],
     "SR": [
@@ -1838,9 +1969,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "dafa": [
@@ -1852,9 +1984,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "snow": [
@@ -1866,9 +1999,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "kb": [
@@ -1880,9 +2014,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "inc": [
@@ -1894,9 +2029,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "aveksa": [
@@ -1908,9 +2044,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PR": [
@@ -1922,9 +2059,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "IR": [
@@ -1936,9 +2074,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "PAN": [
@@ -1950,9 +2089,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SIW": [
@@ -1964,9 +2104,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ALF": [
@@ -1978,9 +2119,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AIS-Å": [
@@ -1992,9 +2134,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "plv": [
@@ -2006,9 +2149,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "adoxa": [
@@ -2020,9 +2164,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ACE": [
@@ -2034,9 +2179,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "CAK": [
@@ -2048,9 +2194,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MIA": [
@@ -2062,9 +2209,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MOA": [
@@ -2076,9 +2224,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "SSF": [
@@ -2090,9 +2239,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "AÖP": [
@@ -2104,9 +2254,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "MSFA": [
@@ -2118,9 +2269,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "ESF": [
@@ -2132,9 +2284,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "BOR": [
@@ -2146,9 +2299,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "RR": [
@@ -2160,9 +2314,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "UPPD": [
@@ -2174,9 +2329,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "TLR": [
@@ -2188,9 +2344,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "CFAR": [
@@ -2202,9 +2359,10 @@ const wordlist = {
                 link: "https://www.scb.se/vara-tjanster/bestall-data-och-statistik/foretagsregistret/vanliga-fragor/"
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "SCB",
+                link: null
+            }
         }
     ],
     "SSO": [
@@ -2216,9 +2374,10 @@ const wordlist = {
                 link: "https://sv.wikipedia.org/wiki/Single_sign-on"
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: null,
+                link: null
+            }
         }
     ],
     "CIAM": [
@@ -2230,9 +2389,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "internetarbetsgivare": [
@@ -2244,9 +2404,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "FAMS": [
@@ -2258,9 +2419,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "",
+                link: null
+            }
         }
     ],
     "AGK": [
@@ -2272,9 +2434,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "FK": [
@@ -2286,9 +2449,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "",
+                link: null
+            }
         }
     ],
     "MS": [
@@ -2300,9 +2464,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "MS-behörighet": [
@@ -2314,9 +2479,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "",
+                link: null
+            }
         }
     ],
     "NADIM": [
@@ -2328,9 +2494,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "KVA": [
@@ -2342,9 +2509,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "",
+                link: null
+            }
         }
     ],
     "ÄIBS": [
@@ -2356,9 +2524,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "SPU": [
@@ -2370,9 +2539,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "",
+                link: null
+            }
         }
     ],
     "peppol": [
@@ -2384,9 +2554,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "Arbetsförmedlingen",
+                link: null
+            }
         }
     ],
     "GUI": [
@@ -2398,9 +2569,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "",
+                link: null
+            }
         }
     ],
     "NKI": [
@@ -2412,9 +2584,10 @@ const wordlist = {
                 link: null
             },
             usage:
-                [
-                    ""
-                ]
+            {
+                name: "",
+                link: null
+            }
         }
     ],
 }
