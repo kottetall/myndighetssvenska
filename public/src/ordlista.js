@@ -9,7 +9,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -23,7 +23,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -37,7 +37,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -51,7 +51,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -79,7 +79,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -107,7 +107,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -121,7 +121,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -135,7 +135,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -149,7 +149,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -163,7 +163,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -177,7 +177,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -191,7 +191,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -205,7 +205,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -219,7 +219,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -261,7 +261,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -275,7 +275,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -289,7 +289,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -303,7 +303,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -317,7 +317,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -331,7 +331,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -345,7 +345,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -359,7 +359,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -373,7 +373,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -387,7 +387,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -401,7 +401,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -415,7 +415,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -429,7 +429,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -443,7 +443,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -457,7 +457,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -485,7 +485,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -499,7 +499,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -513,7 +513,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -527,7 +527,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -541,7 +541,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -555,7 +555,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -569,7 +569,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -583,7 +583,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -597,7 +597,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -611,7 +611,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -639,7 +639,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -653,7 +653,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -667,7 +667,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -681,7 +681,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -695,7 +695,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -709,7 +709,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -723,7 +723,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -737,7 +737,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -751,7 +751,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -765,7 +765,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -779,7 +779,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -793,7 +793,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -807,7 +807,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -821,7 +821,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -835,7 +835,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -849,7 +849,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -863,7 +863,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -877,7 +877,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -891,7 +891,21 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
+                ]
+        }
+    ],
+    "JOB3": [
+        {
+            meaning: "Jobb- och utvecklingsgarantin(FAS 3)",
+            explanation: "",
+            info:
+            {
+                link: null
+            },
+            usage:
+                [
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -905,7 +919,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -919,7 +933,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -933,7 +947,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -947,7 +961,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -961,7 +975,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -975,7 +989,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -989,7 +1003,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1003,7 +1017,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1017,7 +1031,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1031,7 +1045,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1045,7 +1059,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1059,7 +1073,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1101,7 +1115,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1115,7 +1129,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1129,7 +1143,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1143,7 +1157,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1199,7 +1213,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1227,7 +1241,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         },
         {
@@ -1253,7 +1267,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1267,7 +1281,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1281,7 +1295,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1295,7 +1309,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1309,7 +1323,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1323,7 +1337,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1337,7 +1351,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1351,7 +1365,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1365,7 +1379,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1379,7 +1393,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1393,7 +1407,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1407,7 +1421,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         },
         {
@@ -1419,7 +1433,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1433,7 +1447,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1489,7 +1503,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1503,7 +1517,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1517,7 +1531,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1531,7 +1545,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1545,7 +1559,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1587,7 +1601,8 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen",
+                    "SCB"
                 ]
         }
     ],
@@ -1601,7 +1616,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1615,7 +1630,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1629,7 +1644,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1643,7 +1658,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1657,7 +1672,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1671,7 +1686,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1685,7 +1700,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1699,7 +1714,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1713,7 +1728,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1755,7 +1770,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1769,7 +1784,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1783,7 +1798,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1797,7 +1812,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1811,7 +1826,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1825,7 +1840,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1839,7 +1854,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1853,7 +1868,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1909,7 +1924,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1923,7 +1938,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1937,7 +1952,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1965,7 +1980,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1979,7 +1994,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -1993,7 +2008,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2007,7 +2022,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2021,7 +2036,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2035,7 +2050,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2049,7 +2064,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2063,7 +2078,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2077,7 +2092,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2091,7 +2106,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2105,7 +2120,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2119,7 +2134,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2147,7 +2162,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2161,7 +2176,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2175,7 +2190,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2189,7 +2204,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2203,7 +2218,9 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen",
+                    "SCB",
+                    "skatteverket"
                 ]
         }
     ],
@@ -2217,7 +2234,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2231,7 +2248,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2245,7 +2262,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2259,7 +2276,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2273,7 +2290,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2287,7 +2304,8 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen",
+                    "Försäkringskassan"
                 ]
         }
     ],
@@ -2301,7 +2319,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2315,7 +2333,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2329,7 +2347,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2343,7 +2361,8 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen",
+                    "Kriminalvården"
                 ]
         }
     ],
@@ -2357,7 +2376,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2371,7 +2390,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -2385,7 +2404,7 @@ const wordlist = {
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],

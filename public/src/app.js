@@ -1,6 +1,14 @@
 
-document.querySelector("input").addEventListener("keyup", searchData)
+// document.querySelector("input").addEventListener("keyup", searchData)
+document.querySelector("input").addEventListener("blur", hasValue)
+document.querySelector("input").addEventListener("input", searchData)
 document.querySelector(".clear").addEventListener("click", clearAll)
+
+function hasValue() {
+    const wrapper = document.querySelector(".inputWrapper")
+    if (this.value) wrapper.dataset.datawithin = "true"
+    else wrapper.dataset.datawithin = "false"
+}
 
 function searchData() {
     const { value } = this
@@ -51,6 +59,7 @@ function createLi(package) {
     const { abbreviation, meanings, exact } = package
 
     const liElement = quickCreateElement("li")
+    if (exact) liElement.dataset.exact = "true"
 
     const abbreviationElement = quickCreateElement("h2")
     abbreviationElement.textContent = abbreviation
@@ -59,7 +68,6 @@ function createLi(package) {
     for (let meaning of meanings) {
         const matchElement = createMatchElements(abbreviation, meaning)
         liElement.append(matchElement)
-
     }
 
     exact ? resultsElement.prepend(liElement) : resultsElement.append(liElement)
@@ -68,6 +76,7 @@ function createLi(package) {
 
 function createMatchElements(abbreviation, { meaning, explanation, info, usage }) {
     const matchElement = quickCreateElement("div", "match")
+    if (!usage[0]) matchElement.dataset.general = "true"
 
     const usedbyElement = createUsedbyElement(usage)
 
@@ -79,7 +88,7 @@ function createMatchElements(abbreviation, { meaning, explanation, info, usage }
 
     const moreInfoElement = quickCreateElement("div", "moreInfo")
     const moreInfoA = quickCreateElement("a")
-    moreInfoA.href = info.link
+    moreInfoA.href = info.link || "#"
     moreInfoA.textContent = "mer information"
 
     moreInfoElement.append(moreInfoA)
@@ -97,7 +106,7 @@ function createUsedbyElement(users) {
         if (!user) continue
         const userLi = quickCreateElement("li")
         userLi.textContent = user
-        userLi.classList.add(user)
+        userLi.dataset.user = user.toLowerCase()
         usageList.append(userLi)
     }
 
