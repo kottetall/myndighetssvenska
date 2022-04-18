@@ -76,7 +76,7 @@ a[href="#"] {
 
 .inputWrapper label {
     position: absolute;
-    line-height: 1;
+    line-height: 1.5;
     padding-right: calc(var(--input-padding) / 3);
     padding-left: calc(var(--input-padding) / 3);
     background-color: inherit;
@@ -118,7 +118,7 @@ a[href="#"] {
 
 .inputWrapper:focus-within label,
 .inputWrapper[data-datawithin="true"] label {
-    transform: translateY(-200%);
+    transform: translateY(-150%);
 }
 
 .inputWrapper:focus-within label,
@@ -154,7 +154,7 @@ a[href="#"] {
 .results h2 {
     z-index: 99;
     background-color: inherit;
-    margin-top: -0.75em;
+    margin-top: -1em;
     padding: 0.25em 0.75em;
     border: 1px solid black;
     font-size: 1.2rem;
@@ -220,6 +220,18 @@ li[data-user="försäkringskassan"] {
 
 li[data-user="skatteverket"] {
     background-image: url(./../img/logos/SKV_RGB_li.png);
+}
+
+li[data-user="skr"] {
+    background-image: url(./../img/logos/SKR_Logotype.png);
+}
+
+li[data-user="esf"] {
+    background-image: url(./../img/logos/ESF_LOGO_cmyk.jpg);
+}
+
+li[data-user="kriminalvården"] {
+    background-image: url(./../img/logos/kriminalvarden.jpg);
 }
 
 .meaning {

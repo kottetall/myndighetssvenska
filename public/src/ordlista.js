@@ -30,7 +30,7 @@ const wordlist = {
     "AMPB": [
         {
             meaning: "Arbetsmarknadspolitisk bedömning",
-            explanation: "",
+            explanation: "En bedömning/avvägning utifrån statisktiska mått, för att att finna den snabbaste och mest effektiva välgen mot arbete. Samt möjligtgöra att tidigt uppmärksamma/identifiera behov av fördjupat stöd.",
             info:
             {
                 link: null
@@ -86,14 +86,14 @@ const wordlist = {
     "AFID": [
         {
             meaning: "Arbetsförmedlingens inriktningsdokument",
-            explanation: "",
+            explanation: "Styrande dokument/beslut för Arbetsförmedlingens verksamhet",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/om-oss/var-verksamhet/styrning-och-resultat"
             },
             usage:
                 [
-                    ""
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
@@ -114,10 +114,10 @@ const wordlist = {
     "AFII": [
         {
             meaning: "Arbetsförmedlingens interna instruktioner",
-            explanation: "",
+            explanation: "Styrande dokument/beslut för Arbetsförmedlingens verksamhet",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/om-oss/var-verksamhet/styrning-och-resultat"
             },
             usage:
                 [
@@ -128,14 +128,15 @@ const wordlist = {
     "AFLI": [
         {
             meaning: "Arbetsförmedlingen levererar information",
-            explanation: "",
+            explanation: "Tjänst, för handläggare på kommuner, som ger tillgång till viss information som behövs i bedömningen av om ekonomiskt bistånd.",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-kommuner/hamta-uppgifter"
             },
             usage:
                 [
-                    "Arbetsförmedlingen"
+                    "Arbetsförmedlingen",
+                    "SKR"
                 ]
         }
     ],
@@ -156,7 +157,7 @@ const wordlist = {
     "AHL": [
         {
             meaning: "Ansvarig handläggare",
-            explanation: "",
+            explanation: "I det interna systemet AIS, krävs att en sökandes ärende är kopplat till en specifik handläggare. Tidigare var det den handläggaren som ansvarade för sökandes ärende och planering, men numera behöver det inte vara så.",
             info:
             {
                 link: null
@@ -170,7 +171,7 @@ const wordlist = {
     "AIP": [
         {
             meaning: "Arbetssökandes inskrivning och planering",
-            explanation: "",
+            explanation: "Samlingsbegrepp för processen där en person skriver in sig på Arbetsförmedlingen",
             info:
             {
                 link: null
@@ -184,7 +185,7 @@ const wordlist = {
     "AIS": [
         {
             meaning: "Arbetsförmedlingens informationssystem",
-            explanation: "",
+            explanation: "Arbetsförmedlingens huvudsakliga system för dokumentation och beslut för sökanden. Systemet är under utfasning, vilket innebär att handläggningen ibland sker i andra system, exempelvis BÄR.",
             info:
             {
                 link: null
@@ -240,10 +241,10 @@ const wordlist = {
     "APT": [
         {
             meaning: "Arbetsplatsträff",
-            explanation: "",
+            explanation: "En arbetsplatsträff är ett forum för dialog och gemensamt arbete med frågor som rör verksamheten, dess utveckling samt arbetsmiljö och hälsa.(källa: suntarbetsliv.se)",
             info:
             {
-                link: null
+                link: "https://www.suntarbetsliv.se/artiklar/sam/vad-ar-en-arbetsplatstraff/"
             },
             usage:
                 [
@@ -254,7 +255,7 @@ const wordlist = {
     "APU": [
         {
             meaning: "Arbetspsykologisk utredning",
-            explanation: "",
+            explanation: "Process för att identifiera och konkretisera arbetsförmåga och eventuella behov av anpassningar eller hjälpmedel på en framtida arbetsplats.",
             info:
             {
                 link: null
@@ -271,11 +272,12 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://www.forsakringskassan.se/halso-och-sjukvarden/sjukdom-och-skada/arbetslivsinriktad-rehabilitering"
             },
             usage:
                 [
-                    "Arbetsförmedlingen"
+                    "Arbetsförmedlingen",
+                    "Försäkringskassan"
                 ]
         }
     ],
@@ -338,10 +340,10 @@ const wordlist = {
     "AUB": [
         {
             meaning: "Arbetsmarknadsutbildning",
-            explanation: "",
+            explanation: "En arbetsmarknadsutbildning stärker en persons kompetens och syftar till att göra det lättare att få ett jobb.",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/arbetsmarknadsutbildning"
             },
             usage:
                 [
@@ -366,10 +368,10 @@ const wordlist = {
     "BFB": [
         {
             meaning: "Beslut om stöd till personligt biträde",
-            explanation: "",
+            explanation: "Beslut som innebär att en person kan få stöd och hjälp av en person på arbetsplatsen om denne har en funktionsnedsättning. Arbetsgivaren får då ett bidrag för att avsätta personal för detta.",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/bidrag-for-personligt-bitrade"
             },
             usage:
                 [
@@ -380,10 +382,10 @@ const wordlist = {
     "BHA": [
         {
             meaning: "Bidrag till hjälpmedel på arbetsplatsen",
-            explanation: "",
+            explanation: "Om en arbetsgivare har en medarbetare med en funktionsnedsättning som behöver hjälp för att kunna utföra sitt arbete kan arbetsgivaren få bidrag till hjälpmedel. Till exempel bidrag till att köpa eller hyra ett individuellt arbetshjälpmedel, eller att anpassa ett arbetsredskap. Det finns även möjlighet att få bidrag för att anpassa själva arbetsplatsen.",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetsgivare/anstallningsstod/hjalpmedel-pa-arbetsplatsen/bidrag-till-hjalpmedel-pa-arbetsplatsen"
             },
             usage:
                 [
@@ -394,7 +396,7 @@ const wordlist = {
     "BHTJ": [
         {
             meaning: "Behörighetstjänsten",
-            explanation: "",
+            explanation: "Internt systemstöd som styr åtkomsten till personuppgifter för enskilda individer.",
             info:
             {
                 link: null
@@ -425,7 +427,7 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/bidrag-till-uppstartskostnader-vid-start-av-naringsverksamhet"
             },
             usage:
                 [
@@ -450,7 +452,7 @@ const wordlist = {
     "CAK": [
         {
             meaning: "Central arbetsgivarkontroll",
-            explanation: "",
+            explanation: "Inför beslut om insatser/stöd som är planerade hos/för arbetsgivare sker vissa kontroller. I de fall då dessa inte kan genomföras automatiskt och manuell hantering krävs, utförs det av centralt av denna avdelning.",
             info:
             {
                 link: null
@@ -478,7 +480,7 @@ const wordlist = {
     "CR": [
         {
             meaning: "Chefsrummet",
-            explanation: "",
+            explanation: "Särskild del av Intranätet(tidigare VIS) med information och resurser inriktat på de som arbetar som chef.",
             info:
             {
                 link: null
@@ -523,11 +525,12 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/ersattning-och-franvaro/etableringsersattning"
             },
             usage:
                 [
-                    "Arbetsförmedlingen"
+                    "Arbetsförmedlingen",
+                    "Försäkringskassan"
                 ]
         }
     ],
@@ -548,7 +551,7 @@ const wordlist = {
     "EGK": [
         {
             meaning: "Enheten Granskning och kontroll",
-            explanation: "",
+            explanation: "Central avdelning som vid behov skickar signaler till Försäkringskassan eller respektive a-kassa, vid händelser som kan påverka möjligheten till ersättning.",
             info:
             {
                 link: null
@@ -604,7 +607,7 @@ const wordlist = {
     "ELIN": [
         {
             meaning: "Elektronisk interimslösning (för digital hantering av dokument)",
-            explanation: "",
+            explanation: "Internt system för att spara handlingar kopplade till arbetssökande - exempelvis aktivitetsrapporter och olika intyg.",
             info:
             {
                 link: null
@@ -618,24 +621,25 @@ const wordlist = {
     "ESF": [
         {
             meaning: "Europeiska socialfonden",
-            explanation: "",
+            explanation: "Verksamheten syftar till att minska arbetslöshet och utanförskap, att stärka Sveriges långsiktiga kompetensförsörjning och tillväxt och att öka sammanhållningen inom EU.(källa: esf.se)",
             info:
             {
-                link: null
+                link: "https://www.esf.se/"
             },
             usage:
                 [
-                    ""
+                    "ESF",
+                    "Arbetsförmedlingen"
                 ]
         }
     ],
     "ETP": [
         {
             meaning: "Etableringsprogrammet",
-            explanation: "",
+            explanation: "Etableringsprogrammet är ett stöd i form av aktiviteter och utbildning för vissa nyanlända invandrare.",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/etableringsprogrammet"
             },
             usage:
                 [
@@ -677,7 +681,7 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/forstarkt-arbetstraning"
             },
             usage:
                 [
@@ -702,7 +706,7 @@ const wordlist = {
     "FSAS": [
         {
             meaning: "Förstärkt särskilt anställningsskydd",
-            explanation: "",
+            explanation: "Gammalt arbetsgivarstöd som inte längre används",
             info:
             {
                 link: null
@@ -817,7 +821,7 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/introduktion-till-arbete"
             },
             usage:
                 [
@@ -831,7 +835,7 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/introduktionsjobb"
             },
             usage:
                 [
@@ -845,7 +849,7 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/introduktionsjobb"
             },
             usage:
                 [
@@ -856,10 +860,10 @@ const wordlist = {
     "IPSU": [
         {
             meaning: "Individuellt pedagogiskt stöd vid utbildning",
-            explanation: "",
+            explanation: "Beslut om pedagogiskt stöd, kompletterat med hjälpmedel, när en sökande deltar i vissa av Arbetsförmedlingens utbildningsinsatser.",
             info:
             {
-                link: null
+                link: "https://arbetsformedlingen.se/for-arbetssokande/extra-stod/stod-a-o/individuellt-pedagogiskt-stod-vid-utbildning"
             },
             usage:
                 [
@@ -2337,6 +2341,20 @@ const wordlist = {
                 ]
         }
     ],
+    "S-behörighet": [
+        {
+            meaning: "'Stark'-behörighet",
+            explanation: "En nivå av kundspecifik behörighet, som krävs för att kunna se uppgifter om en kund i Arbetsförmedlingens interna system",
+            info:
+            {
+                link: null
+            },
+            usage:
+                [
+                    "Arbetsförmedlingen"
+                ]
+        }
+    ],
     "NADIM": [
         {
             meaning: "",
@@ -2355,6 +2373,21 @@ const wordlist = {
         {
             meaning: "",
             explanation: "Utbildning på anstalt",
+            info:
+            {
+                link: null
+            },
+            usage:
+                [
+                    "Arbetsförmedlingen",
+                    "Kriminalvården"
+                ]
+        }
+    ],
+    "KRIM": [
+        {
+            meaning: "",
+            explanation: "Syftar på det samarbete som finns mellan Arbetsförmedlingen och Kriminalvården, vilket utförs av arbetsförmedlare med särskilda behörigheter och expertis.",
             info:
             {
                 link: null
@@ -2414,7 +2447,7 @@ const wordlist = {
             explanation: "",
             info:
             {
-                link: null
+                link: "https://sv.wikipedia.org/wiki/Grafiskt_anv%C3%A4ndargr%C3%A4nssnitt"
             },
             usage:
                 [
@@ -2424,11 +2457,11 @@ const wordlist = {
     ],
     "NKI": [
         {
-            meaning: "Nöjd kund index",
-            explanation: "Mätvärde för kundnöjdhet, används ofta i serviceyrken-brancher",
+            meaning: "Nöjd-kund-index",
+            explanation: "Mätvärde för kundnöjdhet, används ofta i servicebrancher",
             info:
             {
-                link: null
+                link: "https://sv.wikipedia.org/wiki/NKI"
             },
             usage:
                 [
