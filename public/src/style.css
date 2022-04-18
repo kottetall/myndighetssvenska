@@ -208,6 +208,18 @@ a[href="#"] {
     background-position: center;
     background-size: contain;
     min-height: 1em;
+    position: relative;
+}
+
+.usedby li:hover::after {
+    content: attr(data-user);
+    position: absolute;
+    padding: 0.5em;
+    top: -100%;
+    left: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid var(--af-gray-30);
 }
 
 li[data-user="arbetsförmedlingen"] {
@@ -232,6 +244,18 @@ li[data-user="esf"] {
 
 li[data-user="kriminalvården"] {
     background-image: url(./../img/logos/kriminalvarden.jpg);
+}
+
+li[data-user="åklagarmyndigheten"] {
+    background-image: url(./../img/logos/aklagarmyndigheten_rgb.png);
+}
+
+li[data-user="imy"] {
+    background-image: url(./../img/logos/imy-logotyp-farg-rgb.png);
+}
+
+li[data-user="iaf"] {
+    background-image: url(./../img/logos/iaf_logo_color26896-0.jpg);
 }
 
 .meaning {
