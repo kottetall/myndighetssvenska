@@ -89,6 +89,7 @@ function createMatchElements(abbreviation, { meaning, explanation, info, usage }
     const moreInfoElement = quickCreateElement("div", "moreInfo")
     const moreInfoA = quickCreateElement("a")
     moreInfoA.href = info.link || "#"
+    moreInfoA.target = "_blank"
     moreInfoA.textContent = "mer information"
 
     moreInfoElement.append(moreInfoA)
