@@ -3375,8 +3375,8 @@ const wordlist = {
     ],
     "dafa": [
         {
-            "meaning": "Efterföljaren till KA",
-            "explanation": "",
+            "meaning": "",
+            "explanation": "Systemstöd för externa leverantörer. Ett pilotprojekt med syftet att ersätta KA Webb.",
             "info": {
                 "link": null
             },
@@ -7233,6 +7233,28 @@ const wordlist = {
                 "internetstiftelsen"
             ],
             "relatedTerms": []
+        }
+    ],
+    "IDM": [
+        {
+            "meaning": "",
+            "explanation": "Gammalt behörighetssystem.",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        },
+        {
+            "meaning": "",
+            "explanation": "Team som ansvarar för behörighetsrelaterade frågor och systemförvaltning",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
         }
     ],
     "IL": [
@@ -14459,6 +14481,18 @@ const wordlist = {
             },
             "usage": [
                 ""
+            ]
+        }
+    ],
+    "SSN": [
+        {
+            "meaning": "Social Security Number",
+            "explanation": "",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
             ]
         }
     ],
