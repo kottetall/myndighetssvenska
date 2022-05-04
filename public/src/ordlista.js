@@ -1761,6 +1761,18 @@ const wordlist = {
             "relatedTerms": []
         }
     ],
+    "avaktualisera": [
+        {
+            "meaning": "",
+            "explanation": "Att skriva ut en person från Arbetsförmedlingen",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        }
+    ],
     "avdelning 1": [
         {
             "meaning": null,
@@ -3385,6 +3397,30 @@ const wordlist = {
             ]
         }
     ],
+    "daganteckning": [
+        {
+            "meaning": "",
+            "explanation": "Anteckningar som är av vikt för handläggningen i ett ärende. Detta kan vara anteckningar från ett möte med en sökande, dokumentation av åtgärder som skett etc.",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        }
+    ],
+    "dagnot": [
+        {
+            "meaning": "daganteckning",
+            "explanation": "Anteckningar som är av vikt för handläggningen i ett ärende. Detta kan vara anteckningar från ett möte med en sökande, dokumentation av åtgärder som skett etc.",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        }
+    ],
     "dagpenning": [
         {
             "meaning": null,
@@ -4891,6 +4927,18 @@ const wordlist = {
                 "försäkringskassan"
             ],
             "relatedTerms": []
+        }
+    ],
+    "FFA": [
+        {
+            "meaning": "Förenklad fördelning av arbetsuppgifter",
+            "explanation": "Internt systemstöd för att fördela och förenkla arbetsuppgifter mellan olika verksamhetsområden på Arbetsförmedlingen.",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
         }
     ],
     "FK": [
@@ -12076,6 +12124,18 @@ const wordlist = {
             ]
         }
     ],
+    "påm": [
+        {
+            "meaning": "påminnelse i AIS",
+            "explanation": "Skapar en notering i 'ansvarig handläggares' 'att göra'-lista i AIS.",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        }
+    ],
     "RA": [
         {
             "meaning": "Riktad arbetspsykologisk utredning",
@@ -12464,6 +12524,19 @@ const wordlist = {
             "usage": [
                 "Arbetsförmedlingen"
             ]
+        }
+    ],
+    "Resandebrott": [
+        {
+            "meaning": null,
+            "explanation": "Resandebrottet innebär att någon reser med en avsikt att begå särskilt allvarlig brottslighet – typiskt sett terroristbrottslighet – eller att någon reser med avsikt att ha samröre med en terroristorganisation.",
+            "info": {
+                "link": "https://www.aklagare.se/ordlista/"
+            },
+            "usage": [
+                "åklagarmyndigheten"
+            ],
+            "relatedTerms": []
         }
     ],
     "resekostnadsersättning till smittbärare": [
@@ -13973,6 +14046,18 @@ const wordlist = {
             "relatedTerms": []
         }
     ],
+    "skat": [
+        {
+            "meaning": "sökandekategori",
+            "explanation": "Sökandekategorin är tänkt att på ett överskådligt sätt beskriva sökandes övergripande situation och används vid sammanställning av statistik, underlag för matchning etc. Några exempel på sökandekategorier är '11 - öppet arbetslös' och '41 - ombytessökande'",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        }
+    ],
     "Skattebrott": [
         {
             "meaning": null,
@@ -15296,6 +15381,18 @@ const wordlist = {
             ]
         }
     ],
+    "sökandekategori": [
+        {
+            "meaning": "",
+            "explanation": "Sökandekategorin är tänkt att på ett överskådligt sätt beskriva sökandes övergripande situation och används vid sammanställning av statistik, underlag för matchning etc. Några exempel på sökandekategorier är '11 - öppet arbetslös' och '41 - ombytessökande'",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        }
+    ],
     "Talan": [
         {
             "meaning": null,
@@ -15598,6 +15695,18 @@ const wordlist = {
                 "åklagarmyndigheten"
             ],
             "relatedTerms": []
+        }
+    ],
+    "tilläggs-påm": [
+        {
+            "meaning": "påminnelse i AIS",
+            "explanation": "Skapar en notering i en specifik handläggares 'att göra'-lista i AIS.",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
         }
     ],
     "tilläggsbidrag": [
@@ -16363,6 +16472,18 @@ const wordlist = {
                 "försäkringskassan"
             ],
             "relatedTerms": []
+        }
+    ],
+    "UX": [
+        {
+            "meaning": "User experience",
+            "explanation": "Syftar på en användares upplevelse av att använda ett system",
+            "info": {
+                "link": "https://en.wikipedia.org/wiki/User_experience"
+            },
+            "usage": [
+                ""
+            ]
         }
     ],
     "VAL": [
@@ -17824,6 +17945,18 @@ const wordlist = {
             ]
         }
     ],
+    "återaktualisera": [
+        {
+            "meaning": "",
+            "explanation": "Att åter skriva in en person på Arbetsförmedlingen efter att denne blivit utskriven",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
+        }
+    ],
     "återbetalningsskydd": [
         {
             "meaning": null,
@@ -17916,6 +18049,18 @@ const wordlist = {
                 "försäkringskassan"
             ],
             "relatedTerms": []
+        }
+    ],
+    "öffla": [
+        {
+            "meaning": "",
+            "explanation": "Att flytta en sökandes ärende från ett kontor till ett annat. Används utifrån det interna systemet AIS, där en person alltid (systemtekniskt) måste vara knuten till ett specifikt kontor",
+            "info": {
+                "link": ""
+            },
+            "usage": [
+                "Arbetsförmedlingen"
+            ]
         }
     ],
     "ÖGR": [
