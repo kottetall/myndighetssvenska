@@ -191,6 +191,7 @@ a[href="#"] {
 
 .usedby {
     grid-area: usedby;
+    width: 100%;
 }
 
 .usedby ul {
@@ -239,11 +240,11 @@ li[data-user="skr"] {
 }
 
 li[data-user="esf"] {
-    background-image: url(./../img/logos/ESF_LOGO_cmyk.jpg);
+    background-image: url(./../img/logos/ESF_LOGO_cmyk.png);
 }
 
 li[data-user="kriminalvården"] {
-    background-image: url(./../img/logos/kriminalvarden.jpg);
+    background-image: url(./../img/logos/kriminalvarden.png);
 }
 
 li[data-user="åklagarmyndigheten"] {
@@ -255,7 +256,7 @@ li[data-user="integritetsskyddsmyndigheten"] {
 }
 
 li[data-user="iaf"] {
-    background-image: url(./../img/logos/iaf_logo_color26896-0.jpg);
+    background-image: url(./../img/logos/iaf_logo_color26896-0.png);
 }
 
 li[data-user="afa försäkring"] {
