@@ -192,11 +192,12 @@ a[href="#"] {
 .usedby {
     grid-area: usedby;
     width: 100%;
+    border-right: 1px solid var(--af-gray-30);
+    padding: 0.5em;
 }
 
 .usedby ul {
     display: grid;
-    gap: 0.5em;
     grid-auto-flow: row;
     grid-template-columns: 100%;
     /* FIXME: tillfällig */
@@ -208,8 +209,12 @@ a[href="#"] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 1em;
+    padding: 0.5em;
     position: relative;
+}
+
+.usedby li+li {
+    border-top: 1px solid var(--af-gray-30);
 }
 
 .usedby li:hover::after {
@@ -269,6 +274,10 @@ li[data-user="statens tjänstepensionsverk"] {
 
 li[data-user="internetstiftelsen"] {
     background-image: url(./../img/logos/internetstiftelsen_logo.png);
+}
+
+li[data-user="brottsoffermyndigheten"] {
+    background-image: url(./../img/logos/brottsoffermyndigheten.svg);
 }
 
 .meaning {
