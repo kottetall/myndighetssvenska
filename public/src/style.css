@@ -280,6 +280,18 @@ li[data-user="brottsoffermyndigheten"] {
     background-image: url(./../img/logos/brottsoffermyndigheten.svg);
 }
 
+li[data-user="verksamt"] {
+    background-image: url(./../img/logos/verksamt.svg);
+}
+
+li[data-user="scb"] {
+    background-image: url(./../img/logos/scb.svg);
+}
+
+li[data-user="kronofogden"] {
+    background-image: url(./../img/logos/kronofogden.png);
+}
+
 .meaning {
     grid-area: meaning;
     text-align: center;
