@@ -292,6 +292,10 @@ li[data-user="kronofogden"] {
     background-image: url(./../img/logos/kronofogden.png);
 }
 
+li[data-user="pensionsmyndigheten"] {
+    background-image: url(./../img/logos/pensionsmyndigheten.svg);
+}
+
 .meaning {
     grid-area: meaning;
     text-align: center;
