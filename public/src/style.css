@@ -296,6 +296,10 @@ li[data-user="pensionsmyndigheten"] {
     background-image: url(./../img/logos/pensionsmyndigheten.svg);
 }
 
+li[data-user="antagning"] {
+    background-image: url(./../img/logos/antagning.svg);
+}
+
 .meaning {
     grid-area: meaning;
     text-align: center;
