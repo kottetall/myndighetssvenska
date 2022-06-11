@@ -304,6 +304,14 @@ li[data-user="csn"] {
     background-image: url(./../img/logos/csn.svg);
 }
 
+li[data-user="konkurrensverket"] {
+    background-image: url(./../img/logos/konkurrensverket.svg);
+}
+
+li[data-user="sbf"] {
+    background-image: url(./../img/logos/sbf.png);
+}
+
 .meaning {
     grid-area: meaning;
     text-align: center;
