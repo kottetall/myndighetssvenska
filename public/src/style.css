@@ -233,43 +233,43 @@ li[data-user="arbetsförmedlingen"] {
 }
 
 li[data-user="försäkringskassan"] {
-    background-image: url(./../img/logos/forsakringskassans-logotyp-original-60mm-rgb.png);
+    background-image: url(./../img/logos/forsakringskassan.svg);
 }
 
 li[data-user="skatteverket"] {
-    background-image: url(./../img/logos/SKV_RGB_li.png);
+    background-image: url(./../img/logos/skatteverket.png);
 }
 
 li[data-user="skr"] {
-    background-image: url(./../img/logos/SKR_Logotype.png);
+    background-image: url(./../img/logos/skr.svg);
 }
 
 li[data-user="esf"] {
-    background-image: url(./../img/logos/ESF_LOGO_cmyk.png);
+    background-image: url(./../img/logos/esf.png);
 }
 
 li[data-user="kriminalvården"] {
-    background-image: url(./../img/logos/kriminalvarden.png);
+    background-image: url(./../img/logos/kriminalvarden.svg);
 }
 
 li[data-user="åklagarmyndigheten"] {
-    background-image: url(./../img/logos/aklagarmyndigheten_rgb.png);
+    background-image: url(./../img/logos/aklagarmyndigheten.png);
 }
 
 li[data-user="integritetsskyddsmyndigheten"] {
-    background-image: url(./../img/logos/imy-logotyp-farg-rgb.png);
+    background-image: url(./../img/logos/imy.svg);
 }
 
 li[data-user="iaf"] {
-    background-image: url(./../img/logos/iaf_logo_color26896-0.png);
+    background-image: url(./../img/logos/iaf.svg);
 }
 
 li[data-user="afa försäkring"] {
-    background-image: url(./../img/logos/AFA_blue_RGB_med_frizon.png);
+    background-image: url(./../img/logos/afa.svg);
 }
 
 li[data-user="statens tjänstepensionsverk"] {
-    background-image: url(./../img/logos/spv_logotyp_rgb_original_utskrivet_namn.png);
+    background-image: url(./../img/logos/spv.svg);
 }
 
 li[data-user="internetstiftelsen"] {
@@ -289,7 +289,7 @@ li[data-user="scb"] {
 }
 
 li[data-user="kronofogden"] {
-    background-image: url(./../img/logos/kronofogden.png);
+    background-image: url(./../img/logos/kronofogden.svg);
 }
 
 li[data-user="pensionsmyndigheten"] {
