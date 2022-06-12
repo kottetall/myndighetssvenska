@@ -312,6 +312,10 @@ li[data-user="sbf"] {
     background-image: url(./../img/logos/sbf.png);
 }
 
+li[data-user="riksdagen"] {
+    background-image: url(./../img/logos/riksdagen.svg);
+}
+
 .meaning {
     grid-area: meaning;
     text-align: center;
