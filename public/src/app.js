@@ -3,6 +3,16 @@
 document.querySelector("input").addEventListener("blur", hasValue)
 document.querySelector("input").addEventListener("input", searchData)
 document.querySelector(".clear").addEventListener("click", clearAll)
+document.querySelector(".expand").addEventListener("click", expandMinimize)
+
+function expandMinimize() {
+    const elementToControl = this.closest("[aria-expanded]")
+    elementToControl.ariaExpanded = flipStringBoolean(elementToControl.ariaExpanded)
+}
+
+function flipStringBoolean(string) {
+    return string.toLowerCase() === "false"
+}
 
 function hasValue() {
     const wrapper = document.querySelector(".inputWrapper")

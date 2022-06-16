@@ -316,6 +316,14 @@ li[data-user="riksdagen"] {
     background-image: url(./../img/logos/riksdagen.svg);
 }
 
+li[data-user="lantmäteriet"] {
+    background-image: url(./../img/logos/lantmateriet.svg);
+}
+
+li[data-user="försvarsmakten"] {
+    background-image: url(./../img/logos/forsvarsmakten.svg);
+}
+
 .meaning {
     grid-area: meaning;
     text-align: center;
@@ -335,6 +343,88 @@ li[data-user="riksdagen"] {
     grid-area: moreinfo;
     text-align: center;
     font-size: 0.7rem;
+}
+
+.expandInfo.expand {
+    padding: 2em;
+    background-image: url(./../img/logos/about.svg);
+    border-radius: 100vh;
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.expand {
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.infoModal[aria-expanded="false"]>*:not(.expand) {
+    display: none;
+}
+
+.infoModal[aria-expanded="true"]>*:not(.expand) {
+    display: initial;
+    max-width: 500px;
+}
+
+.infoModal {
+    color: var(--af-white);
+    position: fixed;
+    inset: 0;
+    display: grid;
+    padding: 1em;
+    gap: 2em;
+    align-content: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.infoModal[aria-expanded="false"] {
+    top: auto;
+    left: auto;
+}
+
+.infoModal[aria-expanded="true"] {
+    top: 0;
+    left: 0;
+    background-color: inherit;
+
+}
+
+.infoModal .expandInfo {
+    position: absolute;
+    background-color: var(--af-primary);
+    bottom: 3em;
+    right: 2em;
+}
+
+.infoModal .expandInfo:hover {
+    cursor: pointer;
+}
+
+.infoModal[aria-expanded="false"] .expandInfo::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border-radius: inherit;
+    z-index: -1;
+    background-color: var(--af-white);
+}
+
+.infoModal[aria-expanded="false"] .expandInfo {
+    outline-color: var(--af-primary);
+}
+
+.infoModal[aria-expanded="true"] .expandInfo {
+    outline-color: var(--af-white);
+}
+
+.infoModal p {
+    margin-bottom: 1.25em;
 }
 
 @media screen and (max-width: 450px) {
