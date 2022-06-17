@@ -245,7 +245,7 @@ li[data-user="skr"] {
 }
 
 li[data-user="esf"] {
-    background-image: url(./../img/logos/esf.png);
+    background-image: url(./../img/logos/esf.svg);
 }
 
 li[data-user="kriminalvården"] {
@@ -440,6 +440,10 @@ li[data-user="försvarsmakten"] {
             "explanation"
             "moreinfo";
         grid-template-columns: 100%;
+    }
+
+    .usedby {
+        border: none;
     }
 
     .usedby ul {
