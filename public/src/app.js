@@ -1,5 +1,4 @@
 
-// document.querySelector("input").addEventListener("keyup", searchData)
 document.querySelector("input").addEventListener("blur", hasValue)
 document.querySelector("input").addEventListener("input", searchData)
 document.querySelector(".clear").addEventListener("click", clearAll)
@@ -20,45 +19,34 @@ function hasValue() {
     else wrapper.dataset.datawithin = "false"
 }
 
-function searchData() {
+async function searchData() {
     const { value } = this
     if (!value) {
         clearResultsElement()
         return
     }
 
-    const valueExactRegex = new RegExp(`^${value}$`, "i")
-    const valuePartialRegex = new RegExp(`^${value}`, "i")
-    const valueSuggestRegex = new RegExp(`^${value.substring(0, value.length - 1)}.`, "i")
-
-    const found = []
-    for (let abbreviation in wordlist) {
-        // FIXME: Skiv om!
-        if (valueExactRegex.test(abbreviation)) {
-            const package = { meanings: wordlist[abbreviation] } //TODO Anpassa för flera förklaringar
-            package.abbreviation = abbreviation
-            package.exact = true
-
-            found.push(package)
-        } else if (valuePartialRegex.test(abbreviation)) {
-            const package = { meanings: wordlist[abbreviation] } //TODO Anpassa för flera förklaringar
-            package.abbreviation = abbreviation
-            package.exact = false
-
-            found.push(package)
-        } else if (value.length > 1 && valueSuggestRegex.test(abbreviation)) {
-            // TODO: visa förslag
-            console.clear()
-            console.log(`förslag: ${abbreviation}`)
-        }
-    }
+    const response = await fetch(`/search?begrepp=${value}`)
+    const found = await response.json()
 
     updateResults(found)
 }
 
 function updateResults(found) {
-    // EV bara visa matchningar och om det är mer än en måste man klicka för att se förklaring
     clearResultsElement()
+
+    if (found.length === 0) {
+        const resultsElement = document.querySelector(".results")
+        const noResults = quickCreateElement("li", "noResults")
+
+        const noResultsText = quickCreateElement("span")
+        noResultsText.innerText = `Kunde tyvärr inte hitta några resultat`
+
+        noResults.append(noResultsText)
+        resultsElement.append(noResults)
+        return
+    }
+
     for (let package of found) {
         createLi(package)
     }
@@ -94,7 +82,7 @@ function createMatchElements(abbreviation, { meaning, explanation, info, usage }
     meaningElement.textContent = meaning || abbreviation
 
     const explanationElement = quickCreateElement("div", "explanation")
-    explanationElement.textContent = explanation
+    explanationElement.innerText = explanation
 
     const moreInfoElement = quickCreateElement("div", "moreInfo")
     const moreInfoA = quickCreateElement("a")

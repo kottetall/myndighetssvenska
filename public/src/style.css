@@ -14,6 +14,7 @@
     --af-yellow: #fddc41;
     --af-red: #e21c50;
     --af-white: #fff;
+    --af-white-light: rgb(255 255 255 / .9);
     --af-gray-10: #f5f5f5;
     --af-gray-20: #efefef;
     --af-gray-30: #d1d1d1;
@@ -135,6 +136,15 @@ a[href="#"] {
     }
 }
 
+.results .noResults {
+    padding: 1em .5em;
+    font-style: italic;
+    text-align: center;
+    background-color: var(--af-white-light);
+    width: 65%;
+    margin: 1em auto;
+}
+
 .results>li {
     display: grid;
     gap: 0.25em;
@@ -200,6 +210,7 @@ a[href="#"] {
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: 100%;
+    gap: 0.5em;
     /* FIXME: tillfällig */
     color: transparent;
     /* FIXME: tillfällig */
@@ -244,7 +255,7 @@ li[data-user="skr"] {
     background-image: url(./../img/logos/skr.svg);
 }
 
-li[data-user="esf"] {
+li[data-user="rådet för europeiska socialfonden i sverige"] {
     background-image: url(./../img/logos/esf.svg);
 }
 
@@ -260,7 +271,7 @@ li[data-user="integritetsskyddsmyndigheten"] {
     background-image: url(./../img/logos/imy.svg);
 }
 
-li[data-user="iaf"] {
+li[data-user="inspektionen för arbetslöshetsförsäkringen"] {
     background-image: url(./../img/logos/iaf.svg);
 }
 
@@ -284,7 +295,7 @@ li[data-user="verksamt"] {
     background-image: url(./../img/logos/verksamt.svg);
 }
 
-li[data-user="scb"] {
+li[data-user="statistikmyndigheten"] {
     background-image: url(./../img/logos/scb.svg);
 }
 
@@ -300,7 +311,7 @@ li[data-user="antagning"] {
     background-image: url(./../img/logos/antagning.svg);
 }
 
-li[data-user="csn"] {
+li[data-user="centrala studiestödsnämnden"] {
     background-image: url(./../img/logos/csn.svg);
 }
 
@@ -308,7 +319,7 @@ li[data-user="konkurrensverket"] {
     background-image: url(./../img/logos/konkurrensverket.svg);
 }
 
-li[data-user="sbf"] {
+li[data-user="sveriges begravningsbyråers förbund"] {
     background-image: url(./../img/logos/sbf.png);
 }
 
