@@ -32,8 +32,11 @@ app.get("/search", async (request, response) => {
         })
     })
 
+    console.log(searchresults)
+
     if (searchresults.length === 0) response.send([])
     else {
+        // response.send(searchresults)
         const oldStyleResults = convertResultsToOldFormat(begrepp, searchresults)
         response.send(oldStyleResults).status(200)
 
@@ -146,27 +149,6 @@ function convertResultsToOldFormat(sokString, newResults) {
             oldFound.push(package)
         }
     }
-
-    // {
-    //     "meanings": [
-    //         {
-    //             "meaning": null,
-    //             "explanation": "Skatt som betalas på inkomst av tjänst.Den som har anställning eller pension har nästan alltid A-skatt. Du som arbetsgivare/pensionsutbetalare ska göra avdrag för preliminär skatt från lönen/pensionen enligt preliminärskattetabeller.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSe FA-skatt\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSe F-skatt",
-    //             "info": {
-    //                 "link": "https://www.verksamt.se/om-verksamt/ordlista"
-    //             },
-    //             "usage": [
-    //                 "verksamt"
-    //             ],
-    //             "relatedTerms": []
-    //         }
-    //     ],
-    //     "abbreviation": "A-skatt",
-    //     "exact": false
-    // }
-
-
-
 
     return oldFound
 }
